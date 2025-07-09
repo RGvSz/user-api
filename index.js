@@ -1,4 +1,5 @@
 // index.js
+res.send("Hello from the feature/test branch!");
 
 // 1. Importing required modules
 const express = require('express');         // Web server framework
