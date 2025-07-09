@@ -26,6 +26,8 @@ mongoose.connect('mongodb://127.0.0.1:27017/userdb', {
 // 5. Root route (for testing in browser: http://localhost:3000/)
 app.get('/', (req, res) => {
   res.send('🚀 Welcome to the User API! Use /api/users to access the API.');
+});
+app.get('/test', (req, res) => {
   res.send("Hello from the feature/test branch!");
 });
 
